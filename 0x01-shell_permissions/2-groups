@@ -1,13 +1,7 @@
 #!/bin/bash
-# Get the current user's username
-USERNAME=$(whoami)
 
-# Get a list of all the groups the user is a member of
-GROUPS=$(groups $USERNAME)
-
-# Print the list of groups
-echo $USERNAME 
-echo $GROUPS
+whoami
+groups
 
 
 
