@@ -1,7 +1,4 @@
 #!/bin/bash
-
-whoami
-groups
-
-
+USERNAME=$(whoami)
+GROUPS=$(groups $USERNAME)
 
